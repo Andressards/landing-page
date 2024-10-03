@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68deg, #5a7e5b 20.5%, #0bcf9e 90%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 0.4px solid rgb(255, 255, 255);
+}
+
+.cabecalho img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.cabecalho-botao {
+    background-color: rgb(25, 31, 114);
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0, 0.25);
+    border-radius: 20px;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
+
+.cabecalho-botao:hover {
+    background-color: rgb(28, 35, 128);
+}
+
+.formulario-consultoria {
+    margin: 20px auto;
+    border-top: 0.4px solid rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    background-color: #20fff421;
+    border: 1px solid #29be4e;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario label {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.formulario input, .formulario textarea {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario textarea {
+    min-height: 100px;
+}
+
+.formulario-botao {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(25, 31, 114);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.formulario-botao:hover {
+    background-color: rgb(28, 35, 128);
+}
